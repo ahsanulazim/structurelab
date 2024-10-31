@@ -7,7 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <title>StructureLab</title>
 
-  <!-- Custom Colors -->
+  <!-- Custom Tailwind CSS -->
 
   <script>
     tailwind.config = {
@@ -26,7 +26,7 @@
     }
   </script>
 
-  <!-- Custom Colors End Here -->
+  <!-- Custom Tailwind CSS ENDS Here -->
 
   <link rel="shortcut icon" href="Images/logoipsum-295.svg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -117,7 +117,7 @@
 
 <!-- Features Section -->
 
-<section class="bg-white">
+<section class="bg-white p-4 lg:p-0">
   <div class="max-w-screen-2xl mx-auto">
     <div class="hero-content flex-col lg:flex-row justify-between max-w-full px-0 py-16">
       <div class="text-center lg:text-left max-w-xl">
@@ -156,9 +156,52 @@
       </div>
       <div class="relative">
         <img src="Images/Rectangle 4.png" alt="">
-        <div class="bg-main-color text-center text-white absolute p-8 rounded-md -bottom-16 right-1/2 lg:-left-16 lg:right-auto translate-x-1/2 lg:translate-x-0">
-          <span class="font-bold text-6xl">10+ Years</span>
-          <p class="text-2xl">Experience</p>
+        <div class="bg-main-color text-center text-white absolute p-5 lg:p-8 rounded-md -bottom-16 right-1/2 lg:-left-16 lg:right-auto translate-x-1/2 lg:translate-x-0">
+          <span class="font-bold text-4xl lg:text-6xl">10+ Years</span>
+          <p class="text-lg lg:text-2xl">Experience</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Some Facts Section Here -->
+
+<section class="bg-white">
+  <div class="max-w-screen-2xl mx-auto">
+    <div class=" max-w-full px-0 py-16">
+      <div class="text-center lg:text-left max-w-xl mx-auto lg:mx-0">
+        <h2 class="text-5xl font-bold max-w-md text-gray-950 mb-5 mx-auto lg:mx-0">Some Facts</h2>
+        <p class="">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+      </div>
+
+      <!-- 2nd Column -->
+
+      <div class="mt-24">
+        <div class="stats grid lg:justify-around bg-white">
+          <div class="stat place-items-center border border-main-color size-60 rounded-md py-12">
+            <img src="Images/Group 22.png" alt="">
+            <div class="stat-value text-gray-900 text-5xl font-semibold">54</div>
+            <div class="stat-desc text-gray-500 font-semibold text-xl">Award Winnings</div>
+          </div>
+        
+          <div class="stat place-items-center !border border-main-color size-60 rounded-md py-12">
+            <img src="Images/Group 28.png" alt="">
+            <div class="stat-value text-gray-900 text-5xl font-semibold">1458</div>
+            <div class="stat-desc text-gray-500 font-semibold text-xl">Project Finished</div>
+          </div>
+        
+          <div class="stat place-items-center !border border-main-color size-60 rounded-md py-12">
+            <img src="Images/Group 29.png" alt="">
+            <div class="stat-value text-gray-900 text-5xl font-semibold">590</div>
+            <div class="stat-desc text-gray-500 font-semibold text-xl">Clients Worked</div>
+          </div>
+
+          <div class="stat place-items-center !border border-main-color size-60 rounded-md py-12">
+            <img src="Images/Group 30.png" alt="">
+            <div class="stat-value text-gray-900 text-5xl font-semibold">22578</div>
+            <div class="stat-desc text-gray-500 font-semibold text-xl">Email Sent</div>
+          </div>
         </div>
       </div>
     </div>
